@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RasterRenderer", "RasterRenderer\RasterRenderer.vcxproj", "{D08A288A-40B7-4953-BC4E-7705947A31B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoreLib", "..\CoreLib\CoreLib.vcxproj", "{F9BE7957-8399-899E-0C49-E714FDDD4B65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDriver", "TestDriver\TestDriver.vcxproj", "{70766E13-5C99-456D-A90B-54564D76476A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C6DCAFB-5D7B-43BC-98D7-EBEE5F6DFB19}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		TracingDebug|ARM = TracingDebug|ARM
+		TracingDebug|Mixed Platforms = TracingDebug|Mixed Platforms
+		TracingDebug|Win32 = TracingDebug|Win32
+		TracingDebug|x64 = TracingDebug|x64
+		TracingRelease|ARM = TracingRelease|ARM
+		TracingRelease|Mixed Platforms = TracingRelease|Mixed Platforms
+		TracingRelease|Win32 = TracingRelease|Win32
+		TracingRelease|x64 = TracingRelease|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Debug|ARM.ActiveCfg = Debug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Debug|Win32.Build.0 = Debug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Debug|x64.ActiveCfg = Debug|x64
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Debug|x64.Build.0 = Debug|x64
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Release|ARM.ActiveCfg = Release|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Release|Win32.ActiveCfg = Release|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Release|Win32.Build.0 = Release|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Release|x64.ActiveCfg = Release|x64
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.Release|x64.Build.0 = Release|x64
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingDebug|ARM.ActiveCfg = TracingDebug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingDebug|Mixed Platforms.ActiveCfg = TracingDebug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingDebug|Mixed Platforms.Build.0 = TracingDebug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingDebug|Win32.ActiveCfg = TracingDebug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingDebug|Win32.Build.0 = TracingDebug|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingDebug|x64.ActiveCfg = TracingDebug|x64
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingDebug|x64.Build.0 = TracingDebug|x64
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingRelease|ARM.ActiveCfg = TracingRelease|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingRelease|Mixed Platforms.ActiveCfg = TracingRelease|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingRelease|Mixed Platforms.Build.0 = TracingRelease|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingRelease|Win32.ActiveCfg = TracingRelease|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingRelease|Win32.Build.0 = TracingRelease|Win32
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingRelease|x64.ActiveCfg = TracingRelease|x64
+		{D08A288A-40B7-4953-BC4E-7705947A31B2}.TracingRelease|x64.Build.0 = TracingRelease|x64
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Debug|ARM.Build.0 = Debug|ARM
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Debug|Win32.Build.0 = Debug|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Debug|x64.ActiveCfg = Debug|x64
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Debug|x64.Build.0 = Debug|x64
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Release|ARM.ActiveCfg = Release|ARM
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Release|ARM.Build.0 = Release|ARM
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Release|Win32.ActiveCfg = Release|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Release|Win32.Build.0 = Release|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Release|x64.ActiveCfg = Release|x64
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.Release|x64.Build.0 = Release|x64
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingDebug|ARM.ActiveCfg = Debug|ARM
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingDebug|ARM.Build.0 = Debug|ARM
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingDebug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingDebug|Mixed Platforms.Build.0 = Debug|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingDebug|Win32.ActiveCfg = Debug|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingDebug|Win32.Build.0 = Debug|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingDebug|x64.ActiveCfg = Debug|x64
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingDebug|x64.Build.0 = Debug|x64
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingRelease|ARM.ActiveCfg = Release|ARM
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingRelease|ARM.Build.0 = Release|ARM
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingRelease|Mixed Platforms.ActiveCfg = Release|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingRelease|Mixed Platforms.Build.0 = Release|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingRelease|Win32.ActiveCfg = Release|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingRelease|Win32.Build.0 = Release|Win32
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingRelease|x64.ActiveCfg = Release|x64
+		{F9BE7957-8399-899E-0C49-E714FDDD4B65}.TracingRelease|x64.Build.0 = Release|x64
+		{70766E13-5C99-456D-A90B-54564D76476A}.Debug|ARM.ActiveCfg = Debug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Debug|Win32.Build.0 = Debug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Debug|x64.ActiveCfg = Debug|x64
+		{70766E13-5C99-456D-A90B-54564D76476A}.Debug|x64.Build.0 = Debug|x64
+		{70766E13-5C99-456D-A90B-54564D76476A}.Release|ARM.ActiveCfg = Release|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Release|Win32.ActiveCfg = Release|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Release|Win32.Build.0 = Release|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.Release|x64.ActiveCfg = Release|x64
+		{70766E13-5C99-456D-A90B-54564D76476A}.Release|x64.Build.0 = Release|x64
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingDebug|ARM.ActiveCfg = TracingDebug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingDebug|Mixed Platforms.ActiveCfg = TracingDebug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingDebug|Mixed Platforms.Build.0 = TracingDebug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingDebug|Win32.ActiveCfg = TracingDebug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingDebug|Win32.Build.0 = TracingDebug|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingDebug|x64.ActiveCfg = TracingDebug|x64
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingDebug|x64.Build.0 = TracingDebug|x64
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingRelease|ARM.ActiveCfg = TracingRelease|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingRelease|Mixed Platforms.ActiveCfg = TracingRelease|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingRelease|Mixed Platforms.Build.0 = TracingRelease|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingRelease|Win32.ActiveCfg = TracingRelease|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingRelease|Win32.Build.0 = TracingRelease|Win32
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingRelease|x64.ActiveCfg = TracingRelease|x64
+		{70766E13-5C99-456D-A90B-54564D76476A}.TracingRelease|x64.Build.0 = TracingRelease|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
