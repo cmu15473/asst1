@@ -214,7 +214,7 @@ int main(int argc, char* argv[])
         if (testName == L"all")
         {
             
-            Testing::TestDriver driver(width, height, false, testName, testOutput, baseDir);
+            TestDriver driver(width, height, false, testName, testOutput, baseDir);
             printf("Square            | "); double square    = driver.RenderScene(CreateTestScene1(driver.viewSettings, baseDir));
             printf("Bunny             | "); double bunny     = driver.RenderScene(CreateTestScene3(driver.viewSettings, baseDir));
             printf("Sibenik           | "); double sibenik   = driver.RenderScene(CreateTestScene2(driver.viewSettings, baseDir));
@@ -222,7 +222,7 @@ int main(int argc, char* argv[])
             printf("Warehouse         | "); double warehouse = driver.RenderScene(CreateTestScene5(driver.viewSettings, baseDir));
             printf("Station           | "); double station   = driver.RenderScene(CreateTestScene7(driver.viewSettings, baseDir));
 
-            Testing::TestDriver driverTiled(width, height, true, testName, testOutput, baseDir);
+            TestDriver driverTiled(width, height, true, testName, testOutput, baseDir);
             printf("Square [Tiled]    | "); double square_tiled    = driverTiled.RenderScene(CreateTestScene1(driverTiled.viewSettings, baseDir));
             printf("Bunny [Tiled]     | "); double bunny_tiled     = driverTiled.RenderScene(CreateTestScene3(driverTiled.viewSettings, baseDir));
             printf("Sibenik [Tiled]   | "); double sibenik_tiled   = driverTiled.RenderScene(CreateTestScene2(driverTiled.viewSettings, baseDir));
@@ -251,7 +251,7 @@ int main(int argc, char* argv[])
                 printf("*** Running NON-TILED renderer implementation ***\n");
             else
                 printf("*** Running TILED renderer implementation ***\n");
-            Testing::TestDriver driver(width, height, tiled, testName, testOutput, baseDir);
+            TestDriver driver(width, height, tiled, testName, testOutput, baseDir);
             driver.Run();
         }
     }
