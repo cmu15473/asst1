@@ -85,7 +85,7 @@ unzip correct_images.zip
 
 **Hints and Tips:**
 
-* The definition of a triangle is in ```ProjectedTriangle.h```. Vertex positions X0, Y0, ... are stored in a fixed-point representation with 4 bits of subpixel precision (notice their type is not float but unsigned short). So if vertex 0 is at the center of pixel (1,1) it is represented by the values X0=24, Y0=24. (The bottom-left of pixel (1,1) would be represented as (16,16). The same fixed-point representation is true for fields in ```TriangleSIMD```. For the purpose of implemnting ```RasterizeTriangle```, you may assume all triangle vertex coordinates are given by their bottom left sample ```X0 << 4``` etc.
+* The definition of a triangle is in ```ProjectedTriangle.h```. Vertex positions X0, Y0, ... are stored in a fixed-point representation with 4 bits of subpixel precision (notice their type is not float but unsigned short). So if vertex 0 is at the center of pixel (1,1) it is represented by the values X0=24, Y0=24. (The bottom-left of pixel (1,1) would be represented as (16,16). The same fixed-point representation is true for fields in ```TriangleSIMD```. For the purpose of implemnting ```RasterizeTriangle```, you may assume all triangle vertex coordinates are given by their bottom left sample ```X0 >> 4``` etc.
 * You are welcome to consider the tiled rasterization methods we discussed in class, but we urge you to try simple solutions first in your implementation of ```RasterizeTriangle```. Optimization of ```TriangleSIMD::TestQuadFragment``` can be done in isolation, but before optimizing ```RasterizeTriangle``` we suggest you complete part 2 below.
 
 ## Part 2: Implementing a Sort-Middle Tiled Parallelization Scheme
