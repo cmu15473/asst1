@@ -2,8 +2,8 @@
 
 In this assignment you are given starter code for a CPU parallel renderer. Your job is to implement a few missing parts of the rasterizer and to parallelize the renderer using a sort-middle tiled approach (a.k.a. a "tiled renderer"). You'll find this renderer (after you properly parallelize it), to be quite fast for a software CPU implementation.
 
-#### A1.0 Due Date: Feb 2nd
-#### A1.5 Due Date: Feb 16th
+#### A1.0 Due Date: Sept 14th
+#### A1.5 Due Date: Sept 26th
 
 ## Getting Started
 
